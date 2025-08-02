@@ -1,0 +1,44 @@
+nav {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+nav ul {
+  /* padding: 7px 12px; */
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: var(--mainBackground);
+  overflow: hidden;
+}
+
+.nav-link {
+  display: block;
+  position: relative;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: var(--text);
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.15s;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.nav-link.active {
+  background-color: var(--secondary);
+  color: white;
+}
+
+@media screen and (max-width: 950px) {
+  nav {
+    position: static;
+    transform: translateX(0);
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    padding-left: 1rem;
+  }
+}
