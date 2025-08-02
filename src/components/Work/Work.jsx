@@ -30,7 +30,6 @@ export default function Work() {
       description:
         "An interactive browser game built with JavaScript and styled components. Focused on user interaction, game logic, and responsive UI.",
       image: "images/game-2-front.png",
-      image: "images/game-2-front.png",
       link: "https://yourprojectlink.com",
     },
     {
@@ -51,7 +50,7 @@ export default function Work() {
           {projects.map((item) => (
             <li>
               <div className="project-img">
-                <img src={item.image} alt="Image not loaded" loading="lazy" />
+                <img src={item.image} alt="Not loaded" loading="lazy" />
               </div>
               <div className="project-info">
                 <div>

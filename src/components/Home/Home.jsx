@@ -30,7 +30,7 @@ export default function Home() {
             <div className="img-container">
               <img
                 src="images/GraduationPhotoNobackground-black.png"
-                alt="Not Found"
+                alt="Not loaded"
                 loading="lazy"
               />
             </div>
