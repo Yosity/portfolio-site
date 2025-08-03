@@ -30,9 +30,9 @@ export default function Home() {
             </div>
             <div className="img-container">
               <img
-                src="images/GraduationPhotoNobackground-black.png"
+                src="images/GraduationPhotoNobackground-black.webp"
                 alt="Not loaded"
-                loading="lazy"
+                loading="eager"
               />
             </div>
           </div>

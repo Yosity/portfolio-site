@@ -10,6 +10,7 @@ export default function Work() {
         "A responsive landing page built to practice layout techniques and mobile-first design. Focused on clean UI and CSS flexbox/grid structure.",
       image: "images/clip-board-page.webp",
       link: "https://yourprojectlink.com",
+      load: "eager",
     },
     {
       title: "Space Firm",
@@ -17,6 +18,7 @@ export default function Work() {
         "A fictional company homepage designed with attention to layout balance, modern aesthetics, and responsive behavior across devices.",
       image: "images/space-firm-site.webp",
       link: "https://yourprojectlink.com",
+      load: "eager",
     },
     {
       title: "DishDiscover",
@@ -24,6 +26,7 @@ export default function Work() {
         "A recipe browsing app built with React and data from TheMealDB API. Includes dynamic search and recipe detail pages with a clean UI.",
       image: "images/dishdiscover.webp",
       link: "",
+      load: "lazy",
     },
     {
       title: "Rock, Paper & Scissors! Game",
@@ -31,6 +34,7 @@ export default function Work() {
         "An interactive browser game built with JavaScript and styled components. Focused on user interaction, game logic, and responsive UI.",
       image: "images/game-2-front.webp",
       link: "https://yourprojectlink.com",
+      load: "lazy",
     },
     {
       title: "Touch Typing UI",
@@ -38,6 +42,7 @@ export default function Work() {
         "A minimalist touch typing interface built to improve frontend form handling and visual feedback. Focus on animations and responsiveness.",
       image: "images/touch-typing-UI.webp",
       link: "https://yourprojectlink.com",
+      load: "lazy",
     },
     // Add more projects here
   ];
@@ -50,7 +55,7 @@ export default function Work() {
           {projects.map((item) => (
             <li>
               <div className="project-img">
-                <img src={item.image} alt="Not loaded" loading="lazy" />
+                <img src={item.image} alt="Not loaded" loading={item.load} />
               </div>
               <div className="project-info">
                 <div>
