@@ -8,35 +8,35 @@ export default function Work() {
       title: "Clipboard Page",
       description:
         "A responsive landing page built to practice layout techniques and mobile-first design. Focused on clean UI and CSS flexbox/grid structure.",
-      image: "images/clip-board-page.png",
+      image: "images/clip-board-page.webp",
       link: "https://yourprojectlink.com",
     },
     {
       title: "Space Firm",
       description:
         "A fictional company homepage designed with attention to layout balance, modern aesthetics, and responsive behavior across devices.",
-      image: "images/space-firm-site.png",
+      image: "images/space-firm-site.webp",
       link: "https://yourprojectlink.com",
     },
     {
       title: "DishDiscover",
       description:
         "A recipe browsing app built with React and data from TheMealDB API. Includes dynamic search and recipe detail pages with a clean UI.",
-      image: "images/dishdiscover.png",
+      image: "images/dishdiscover.webp",
       link: "",
     },
     {
       title: "Rock, Paper & Scissors! Game",
       description:
         "An interactive browser game built with JavaScript and styled components. Focused on user interaction, game logic, and responsive UI.",
-      image: "images/game-2-front.png",
+      image: "images/game-2-front.webp",
       link: "https://yourprojectlink.com",
     },
     {
       title: "Touch Typing UI",
       description:
         "A minimalist touch typing interface built to improve frontend form handling and visual feedback. Focus on animations and responsiveness.",
-      image: "images/touch-typing-UI.png",
+      image: "images/touch-typing-UI.webp",
       link: "https://yourprojectlink.com",
     },
     // Add more projects here

@@ -70,14 +70,11 @@
   align-self: center;
   background-color: var(--primary);
   color: white;
-  transition: 0.15s;
+  transition: opacity 0.15s;
 }
 
 .skills-resume-container button:hover {
-  background-color: var(--secondary);
-}
-.skills-resume-container button:active {
-  scale: 0.98;
+  opacity: 0.8;
 }
 
 .skills li {
@@ -114,6 +111,7 @@
 
 @media screen and (max-width: 950px) {
   .home-container {
+    text-align: center;
   }
   .img-skill-container {
     flex: 1;
@@ -121,9 +119,16 @@
     display: flex;
     gap: 1.2rem;
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .img-container img {
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .img-skill-container {
+    flex-direction: column-reverse;
+    gap: 4rem;
   }
 }

@@ -10,6 +10,7 @@ export default function Home() {
             <div className="skills-resume-container">
               <h3>Experience in</h3>
               <ul className="skills">
+                <li>DSA</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
