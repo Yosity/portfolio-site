@@ -28,9 +28,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.projects-grid li button {
+.projects-grid li a {
+  font-size: 0.85rem;
+  text-decoration: none;
   margin-top: 10px;
-  padding: 0.8rem;
+  padding: 0.7rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -40,10 +42,10 @@
   transition: 0.15s;
 }
 
-.projects-grid li button:hover {
+.projects-grid li a:hover {
   background-color: var(--secondary);
 }
-.projects-grid li button:active {
+.projects-grid li a:active {
   scale: 0.98;
 }
 .project-img {
