@@ -162,10 +162,10 @@ h3 {
   font-weight: 600;
   padding-left: 13px;
   margin-top: -5px;
+  vertical-align: middle;
 }
 .name h3 span {
   font-size: 0.6rem;
-  vertical-align: middle;
 }
 .hero-socials {
   display: flex;
@@ -200,7 +200,7 @@ h3 {
 }
 
 .motion-div {
-  max-width: 1000px;
+  max-width: 1150px;
   min-width: 600px;
   padding: 1rem;
   flex: 1;
