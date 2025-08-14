@@ -14,10 +14,11 @@ export default function Home() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>TavaScript</li>
+                <li>TypeScript</li>
                 <li>React</li>
-                <li>Next</li>
-                <li>REST</li>
+                <li>NextJS</li>
+                <li>REST API</li>
+                <li>GSAP</li>
                 <li>ExpressJS</li>
                 <li>ML</li>
                 <li>Python</li>
@@ -40,28 +41,29 @@ export default function Home() {
             <h3>What I do</h3>
             <div className="important-text">
               <p>
-                I build responsive, user-friendly websites. My goal is to build
-                dope, accessible interfaces that feel intuitive and work
+                I enjoy building optimized, responsive, user-friendly, dope
+                websites with accessible interfaces that feel intuitive and work
                 seamlessly across devices. Currently, I’m diving into Three.js &
                 GSAP to bring interactive 3D experiences into the browser and
                 push the boundaries of what the web can do.
               </p>
               <p>
-                I'm also passionate about AI and enjoy exploring how machine
-                learning can enhance the user experience, automate tasks, and
-                solve real-world problem.
+                I'm also passionate about Artificial Intelligence and enjoy
+                exploring how machine learning can enhance the user experience,
+                automate tasks, and solve real-world problem.
               </p>
             </div>
             <p>
-              I’m currently open to new opportunities where I can contribute to
-              meaningful projects and grow as a developer. If you’re hiring or
-              have a collaboration in mind, feel free to reach out...{" "}
+              I’m at the start of my career and open to new opportunities where
+              I can contribute to meaningful projects and grow as a developer.
+              If you’re hiring or have a collaboration in mind, feel free to
+              reach out...
               <span className="please">please</span>.
             </p>
             <p>
-              In my spare time, I like to exercise, read novels, learning 3d
-              graphics & web animations, and learning about backend side of
-              development.
+              Outside of coding, I love staying active, reading about a variety
+              of intriguing topics, and experimenting with 3D graphics, web
+              animations to keep pushing my creative and technical limits.
             </p>
           </div>
         </div>

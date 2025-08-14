@@ -17,9 +17,7 @@ function App() {
         <div className="hero-container">
           <div className="name">
             <h1>Yosef Anwar</h1>
-            <h3>
-              Frontend Developer | <span>Backend as well maybe</span>
-            </h3>
+            <h3>Frontend Developer</h3>
           </div>
           <ul className="hero-socials">
             <li>
