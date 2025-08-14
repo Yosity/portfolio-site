@@ -54,7 +54,7 @@ export default function Work() {
           {projects.map((item) => (
             <li>
               <div className="project-img">
-                <img src={item.image} alt="Not loaded" loading={item.load} />
+                <img src={item.image} alt={item.title} loading={item.load} />
               </div>
               <div className="project-info">
                 <div>

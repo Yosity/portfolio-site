@@ -32,9 +32,8 @@ export default function Home() {
             <div className="img-container">
               <img
                 src="images/GraduationPhotoNobackground-black.webp"
-                alt="Graduation Photo of Yosef"
+                alt="Graduation-Photo-of-Yosef"
                 loading="eager"
-                fetchpriority="high"
               />
             </div>
           </div>
